@@ -25,7 +25,6 @@ export const AuthStack = () => (
           <Scene key="createTasks1" title="Created Tasks" component={CreatedTasks} hideNavBar={true} />
         </Scene>
       </Scene>
-      <Scene key="todoModal" component={TodoModal} direction="vertical" hideNavBar={true} />
     </Stack>
   </Router>
 );
